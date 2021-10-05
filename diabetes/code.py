@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-dataset=pd.read_csv('https://raw.githubusercontent.com/npradaschnor/Pima-Indians-Diabetes-Dataset/master/diabetes.csv')
+dataset=pd.read_csv("/diabetes.csv")
 dataset
 
 x=dataset.iloc[:,:-1].values
